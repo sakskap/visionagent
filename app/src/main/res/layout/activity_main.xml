@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_dim_gradient"
+    tools:context=".MainActivity"
+    tools:theme="@style/Theme.VisionAgent">
+
+    <!-- Floating orb (draggable in code) -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabSphere"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:contentDescription="@string/tap_describe_long_press_auto_double_tap_shush"
+        android:stateListAnimator="@null"
+        app:fabCustomSize="72dp"
+        app:backgroundTint="#222733"
+        app:rippleColor="#33FFFFFF"
+        app:tint="@android:color/white"
+        app:srcCompat="@android:drawable/ic_btn_speak_now"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- Status pill above the orb -->
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/statusPill"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="12dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:minHeight="48dp"
+        app:cardBackgroundColor="#80131A24"
+        app:cardCornerRadius="18dp"
+        app:cardElevation="2dp"
+        app:layout_constraintBottom_toTopOf="@id/fabSphere"
+        app:layout_constraintEnd_toEndOf="@id/fabSphere"
+        app:layout_constraintStart_toStartOf="parent"
+        app:strokeColor="#33FFFFFF"
+        app:strokeWidth="1dp">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tvStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif-medium"
+            android:maxLines="2"
+            android:paddingStart="14dp"
+            android:paddingTop="8dp"
+            android:paddingEnd="14dp"
+            android:paddingBottom="8dp"
+            android:textColor="#E6FFFFFF"
+            android:textSize="13sp"
+            tools:text="tap: describe  •  long-press: auto  •  double-tap: shush" />
+    </com.google.android.material.card.MaterialCardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

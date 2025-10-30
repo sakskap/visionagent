@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Vision Agent</string>
+    <string name="tap_describe_long_press_toggle_auto_double_tap_shush">Tap: describe. Long-press: toggle auto. Double-tap: shush.</string>
+    <string name="va_fab_desc">Tap: describe. Long-press: toggle auto. Double-tap: shush.</string>
+    <string name="tap_describe_long_press_auto_double_tap_shush">Tap: describe. Long-press: auto. Double-tap: shush.</string>
+
+</resources>

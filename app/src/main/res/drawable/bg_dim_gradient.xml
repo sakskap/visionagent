@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- base -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#111216" />
+        </shape>
+    </item>
+
+    <!-- vignette radial glow -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:type="radial"
+                android:gradientRadius="900dp"
+                android:centerX="80%"
+                android:centerY="85%"
+                android:startColor="#3324D2FF"
+                android:centerColor="#1124D2FF"
+                android:endColor="#00112123" />
+        </shape>
+    </item>
+</layer-list>

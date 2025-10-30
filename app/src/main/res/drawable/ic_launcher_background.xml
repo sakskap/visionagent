@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Foreground: stylized eye + arc (white) -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="
+            M54,24
+            C33,24 16,40 16,54
+            C16,68 33,84 54,84
+            C75,84 92,68 92,54
+            C92,40 75,24 54,24
+            Z
+            M54,36
+            A18,18 0 1,1 54,72
+            A18,18 0 1,1 54,36 Z" />
+    <!-- Upper arc for 'assist' gesture -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="
+            M18,46
+            C30,34 42,30 54,30
+            C66,30 78,34 90,46
+            L90,42
+            C78,30 66,26 54,26
+            C42,26 30,30 18,42 Z" />
+</vector>

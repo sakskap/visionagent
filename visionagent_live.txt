@@ -1,0 +1,429 @@
+--------- beginning of main
+09-13 20:13:40.312  1585  6432 D SemWifiUsabilityStatsMonitor: onWifiUsabilityStats - seqNum 1641, isSameBssidAndFreq true
+09-13 20:13:40.313  1585  2668 I SemWifiLinkQualityMonitor: Link stat: 1396 / 700 / 1.41 (144) / 72 / -51.0 || 100.0 : 72.00 / B (B) || 0.26 ms / 31.31 Mbps / N || 0 / N / 0 N / 0 Y
+--------- beginning of system
+09-13 20:13:41.356   631   631 D io_stats: !@   8,0 r 1306402 35282872 w 721536 9818224 d 232018 10776392 f 0 0 iot 721272 0 th 0 0 0 pt 0 inp 0 0 18827.844
+09-13 20:13:41.448  1450  1450 I SurfaceFlinger: SFWD update time=18827936904221
+09-13 20:13:42.745  3456  3462 I FusedLocation: (REDACTED) getLastLocation() noteOp denied for %s
+09-13 20:13:43.342  1585  6432 D SemWifiUsabilityStatsMonitor: onWifiUsabilityStats - seqNum 1642, isSameBssidAndFreq true
+09-13 20:13:43.357   631   631 D io_stats: !@   8,0 r 1306410 35283108 w 721546 9818264 d 232018 10776392 f 0 0 iot 721296 0 th 0 0 0 pt 0 inp 0 0 18829.845
+09-13 20:13:44.227  4751  5638 I SDHMS:C : SIOP:: AP:323 BAT:332 USB:0 CHG:358 PA:329 WIFI:330 BLK:0 SUBBAT:0 SKIN:337 LRP:337 LRP2:337 LRF2:323 LRB2:337 AP2:337 CHG2:329 WIFI2:337 SPK2:342 VAP:326 
+09-13 20:13:44.984  4252  4252 I studio.screen.sharing: Controller::ProcessMessage 10
+09-13 20:13:44.986  1585  5017 D androidtc: Initializing SystemTextClassifier, type = System
+09-13 20:13:44.988  1585  5017 E ClipboardService: Denying clipboard access to com.sec.android.app.myfiles, application is not in focus nor is it a system service for user 0
+09-13 20:13:44.989  1585  5017 E ClipboardService: Denying clipboard access to com.google.android.apps.nbu.paisa.user, application is not in focus nor is it a system service for user 0
+09-13 20:13:44.989  1585  5017 E ClipboardService: Denying clipboard access to com.google.android.gms, application is not in focus nor is it a system service for user 0
+09-13 20:13:44.989  1585  5017 E ClipboardService: Denying clipboard access to com.kakao.talk, application is not in focus nor is it a system service for user 0
+09-13 20:13:44.989  1585  5017 E ClipboardService: Denying clipboard access to com.application.zomato, application is not in focus nor is it a system service for user 0
+09-13 20:13:44.989  1585  5017 E ClipboardService: Denying clipboard access to com.google.android.gm, application is not in focus nor is it a system service for user 0
+09-13 20:13:44.990  1585  5017 E ClipboardService: Denying clipboard access to com.google.android.as, application is not in focus nor is it a system service for user 0
+09-13 20:13:44.993  5304  5572 I IceCone : a Clip is created successfully. ty(1), cid(2000), or(0 
+09-13 20:13:44.994 32381 32510 I SCS@AiText: (TextProvider:call) [binder:32381_3] entering in detectLanguage, enter from com.samsung.android.smartsuggestions
+09-13 20:13:44.994 32381 32510 I SCS@AiText: (DetectLanguageExecutor:detectLanguage) start
+09-13 20:13:44.995 32381 32510 I SCS@AiText: (DetectLanguageExecutor:detectLanguage) input text length: 58
+09-13 20:13:44.995 32381 32510 I SCS@AiText: (LanguageDetectorManager:detectLanguageImpl) Service: processing
+09-13 20:13:44.995  1585  1620 D SecContentProvider: query(), uri = 15 selection = isClipboardShareAllowedAsUser
+09-13 20:13:44.995  1585  1620 D SecContentProvider: called from android.uid.honeyboard:10160
+09-13 20:13:44.995  1585  1620 D RestrictionPolicy: isClipboardShareAllowed : true
+09-13 20:13:44.997  5304  5837 I IceCone : RichcontentProvider query : 3, null, false 
+09-13 20:13:45.003 32412  4984 I ScsApi@Feature: checkFeature() : FEATURE_TEXT_GET_ENTITY, sdk : 3.1.24
+09-13 20:13:45.004 32412  4984 I ScsApi@FeatureHolder: setStatus() : FEATURE_TEXT_GET_ENTITY : 0
+09-13 20:13:45.004 32412  4984 I ScsApi@Feature: checkFeature() : FEATURE_TEXT_GET_ENTITY_DATETIME_NUMERAL, sdk : 3.1.24
+09-13 20:13:45.004 32412  4984 I ScsApi@FeatureHolder: setStatus() : FEATURE_TEXT_GET_ENTITY_DATETIME_NUMERAL : 0
+09-13 20:13:45.004 32412  4984 I ScsApi@Feature: checkFeature() : FEATURE_TEXT_GET_ENTITY_PHONE_NUMBER, sdk : 3.1.24
+09-13 20:13:45.004 32412  4984 I ScsApi@FeatureHolder: setStatus() : FEATURE_TEXT_GET_ENTITY_PHONE_NUMBER : 0
+09-13 20:13:45.004 32412  4984 I ScsApi@Feature: checkFeature() : FEATURE_TEXT_GET_ENTITY_POI, sdk : 3.1.24
+09-13 20:13:45.004 32412  4984 I ScsApi@FeatureHolder: setStatus() : FEATURE_TEXT_GET_ENTITY_POI : 0
+09-13 20:13:45.004 32412  4984 I ScsApi@Feature: checkFeature() : FEATURE_TEXT_GET_ENTITY_BANK, sdk : 3.1.24
+09-13 20:13:45.004 32412  4984 I ScsApi@FeatureHolder: setStatus() : FEATURE_TEXT_GET_ENTITY_BANK : 0
+09-13 20:13:45.004 32412  4984 I ScsApi@Feature: checkFeature() : FEATURE_TEXT_GET_ENTITY_UPI_ID, sdk : 3.1.24
+09-13 20:13:45.004 32412  4984 I ScsApi@FeatureHolder: setStatus() : FEATURE_TEXT_GET_ENTITY_UPI_ID : 0
+09-13 20:13:45.004  5304  5516 I IceCone : c success to copy to clipboard. 
+09-13 20:13:45.005  5304  5516 I HBD     : b clipType - 1 
+09-13 20:13:45.005  5304  5516 I IceCone : a remote copy failed. Continue apps on other devices and Multi Control Setting is Off. 
+09-13 20:13:45.005 32412  4984 I ScsApi@Feature: checkFeature() : FEATURE_TEXT_GET_ENTITY_UNIT, sdk : 3.1.24
+09-13 20:13:45.006 32412  4984 I ScsApi@FeatureHolder: setStatus() : FEATURE_TEXT_GET_ENTITY_UNIT : 0
+09-13 20:13:45.006 32412  4984 I ScsApi@Feature: checkFeature() : FEATURE_TEXT_DETECT_LANGUAGE, sdk : 3.1.24
+09-13 20:13:45.006  2781  5072 I ClipboardListener: Clipboard overlay suppressed.
+09-13 20:13:45.006 32412  4984 I ScsApi@FeatureHolder: setStatus() : FEATURE_TEXT_DETECT_LANGUAGE : 0
+09-13 20:13:45.008 32381 32510 I tflite  : Replacing 8 node(s) with delegate (TfLiteXNNPackDelegate) node, yielding 8 partitions for the whole graph.
+09-13 20:13:45.009 32381 32393 I SCS@AiText: (TextProvider:call) [binder:32381_1] entering in detectLanguage, enter from com.samsung.android.smartsuggestions
+09-13 20:13:45.009 32381 32393 I SCS@AiText: (DetectLanguageExecutor:detectLanguage) start
+09-13 20:13:45.009 32381 32393 I SCS@AiText: (DetectLanguageExecutor:detectLanguage) input text length: 58
+09-13 20:13:45.010 32381 32510 I SCS@AiText: (DetectLanguageExecutor:detectLanguage) end
+09-13 20:13:45.011 32381 32393 I SCS@AiText: (LanguageDetectorManager:detectLanguageImpl) Service: processing
+09-13 20:13:45.017  4656  5076 I DefaultLanguageDetector: detectLanguage locale :en
+09-13 20:13:45.017  4656  4337 E DefaultLanguageDetector: detectLanguage outside thread: en
+09-13 20:13:45.017  4656  4337 I SSS:TextClassifierDelegateFactory: getTextClassifierDelegate textLanguageen
+09-13 20:13:45.018  4656  4337 I ScsApi@Feature: checkFeature() : FEATURE_TEXT_GET_ENTITY, sdk : 3.1.24
+09-13 20:13:45.018  4656  4337 I ScsApi@FeatureHolder: setStatus() : FEATURE_TEXT_GET_ENTITY : 0
+09-13 20:13:45.018  4656  4337 I ScsApi@Feature: checkFeature() : FEATURE_TEXT_GET_ENTITY_DATETIME_NUMERAL, sdk : 3.1.24
+09-13 20:13:45.018  4656  4337 I ScsApi@FeatureHolder: setStatus() : FEATURE_TEXT_GET_ENTITY_DATETIME_NUMERAL : 0
+09-13 20:13:45.018  4656  4337 I ScsApi@Feature: checkFeature() : FEATURE_TEXT_GET_ENTITY_PHONE_NUMBER, sdk : 3.1.24
+09-13 20:13:45.018  4656  4337 I ScsApi@FeatureHolder: setStatus() : FEATURE_TEXT_GET_ENTITY_PHONE_NUMBER : 0
+09-13 20:13:45.018  4656  4337 I ScsApi@Feature: checkFeature() : FEATURE_TEXT_GET_ENTITY_POI, sdk : 3.1.24
+09-13 20:13:45.018  4656  4337 I ScsApi@FeatureHolder: setStatus() : FEATURE_TEXT_GET_ENTITY_POI : 0
+09-13 20:13:45.018  4656  4337 I ScsApi@Feature: checkFeature() : FEATURE_TEXT_GET_ENTITY_BANK, sdk : 3.1.24
+09-13 20:13:45.019  4656  4337 I ScsApi@FeatureHolder: setStatus() : FEATURE_TEXT_GET_ENTITY_BANK : 0
+09-13 20:13:45.019  4656  4337 I ScsApi@Feature: checkFeature() : FEATURE_TEXT_GET_ENTITY_UPI_ID, sdk : 3.1.24
+09-13 20:13:45.019  4656  4337 I ScsApi@FeatureHolder: setStatus() : FEATURE_TEXT_GET_ENTITY_UPI_ID : 0
+09-13 20:13:45.019  4656  4337 I ScsApi@Feature: checkFeature() : FEATURE_TEXT_GET_ENTITY_UNIT, sdk : 3.1.24
+09-13 20:13:45.019  4656  4337 I ScsApi@FeatureHolder: setStatus() : FEATURE_TEXT_GET_ENTITY_UNIT : 0
+09-13 20:13:45.019  4656  4337 I ScsApi@Feature: checkFeature() : FEATURE_TEXT_DETECT_LANGUAGE, sdk : 3.1.24
+09-13 20:13:45.019  4656  4337 I ScsApi@FeatureHolder: setStatus() : FEATURE_TEXT_DETECT_LANGUAGE : 0
+09-13 20:13:45.022 32381 32510 I SCS@AiText: (TextProvider:call) [binder:32381_3] entering in getBasicEntity, enter from com.samsung.android.smartsuggestions
+09-13 20:13:45.022 32381 32510 I SCS@AiText: (ExtractEntityExecutor:extractBasicEntity) start
+09-13 20:13:45.022 32381 32510 I SCS@AiText: (ExtractEntityExecutor:extractBasicEntity) input text length: 58
+09-13 20:13:45.022 32381 32510 I SCS@AiText: (BasicEntityExtractorManager:extractBasicEntitiesImpl) Service: processing entityType: [DATE_TIME, PHONE_NUMBER, BANK_ACCOUNT, URL, MAP_ADDRESS, UPI_ID, EMAIL_ADDRESS], language: en, country: IN
+09-13 20:13:45.030 32381 32393 I tflite  : Replacing 8 node(s) with delegate (TfLiteXNNPackDelegate) node, yielding 8 partitions for the whole graph.
+09-13 20:13:45.032 32381 32393 I SCS@AiText: (DetectLanguageExecutor:detectLanguage) end
+09-13 20:13:45.032 32381 32510 I IndianAddressExtractor: Address does not meet construction condition
+09-13 20:13:45.035 32381 32393 I SCS@AiText: (TextProvider:call) [binder:32381_1] entering in getBasicEntity, enter from com.samsung.android.smartsuggestions
+09-13 20:13:45.035 32381 32393 I SCS@AiText: (ExtractEntityExecutor:extractBasicEntity) start
+09-13 20:13:45.035 32381 32393 I SCS@AiText: (ExtractEntityExecutor:extractBasicEntity) input text length: 58
+09-13 20:13:45.037 32381 32511 I SCS@AiText: (TextProvider:call) [binder:32381_4] entering in detectLanguage, enter from com.samsung.android.smartsuggestions
+09-13 20:13:45.037 32381 32511 I SCS@AiText: (DetectLanguageExecutor:detectLanguage) start
+09-13 20:13:45.037 32381 32511 I SCS@AiText: (DetectLanguageExecutor:detectLanguage) input text length: 58
+09-13 20:13:45.037 32381 32511 I SCS@AiText: (LanguageDetectorManager:detectLanguageImpl) Service: processing
+09-13 20:13:45.052 32381 32511 I tflite  : Replacing 8 node(s) with delegate (TfLiteXNNPackDelegate) node, yielding 8 partitions for the whole graph.
+09-13 20:13:45.053 32381 32511 I SCS@AiText: (DetectLanguageExecutor:detectLanguage) end
+09-13 20:13:45.061  4656  5080 I DefaultLanguageDetector: detectLanguage locale :en
+09-13 20:13:45.062  4656  4987 E DefaultLanguageDetector: detectLanguage outside thread: en
+09-13 20:13:45.062  4656  4987 I SSS:TextClassifierDelegateFactory: getTextClassifierDelegate textLanguageen
+09-13 20:13:45.062  4656  4987 I ScsApi@Feature: checkFeature() : FEATURE_TEXT_GET_ENTITY, sdk : 3.1.24
+09-13 20:13:45.062  4656  4987 I ScsApi@FeatureHolder: setStatus() : FEATURE_TEXT_GET_ENTITY : 0
+09-13 20:13:45.062  4656  4987 I ScsApi@Feature: checkFeature() : FEATURE_TEXT_GET_ENTITY_DATETIME_NUMERAL, sdk : 3.1.24
+09-13 20:13:45.062  4656  4987 I ScsApi@FeatureHolder: setStatus() : FEATURE_TEXT_GET_ENTITY_DATETIME_NUMERAL : 0
+09-13 20:13:45.062  4656  4987 I ScsApi@Feature: checkFeature() : FEATURE_TEXT_GET_ENTITY_PHONE_NUMBER, sdk : 3.1.24
+09-13 20:13:45.062  4656  4987 I ScsApi@FeatureHolder: setStatus() : FEATURE_TEXT_GET_ENTITY_PHONE_NUMBER : 0
+09-13 20:13:45.062  4656  4987 I ScsApi@Feature: checkFeature() : FEATURE_TEXT_GET_ENTITY_POI, sdk : 3.1.24
+09-13 20:13:45.063  4656  4987 I ScsApi@FeatureHolder: setStatus() : FEATURE_TEXT_GET_ENTITY_POI : 0
+09-13 20:13:45.063  4656  4987 I ScsApi@Feature: checkFeature() : FEATURE_TEXT_GET_ENTITY_BANK, sdk : 3.1.24
+09-13 20:13:45.063  4656  4987 I ScsApi@FeatureHolder: setStatus() : FEATURE_TEXT_GET_ENTITY_BANK : 0
+09-13 20:13:45.063  4656  4987 I ScsApi@Feature: checkFeature() : FEATURE_TEXT_GET_ENTITY_UPI_ID, sdk : 3.1.24
+09-13 20:13:45.063  4656  4987 I ScsApi@FeatureHolder: setStatus() : FEATURE_TEXT_GET_ENTITY_UPI_ID : 0
+09-13 20:13:45.063  4656  4987 I ScsApi@Feature: checkFeature() : FEATURE_TEXT_GET_ENTITY_UNIT, sdk : 3.1.24
+09-13 20:13:45.063  4656  4987 I ScsApi@FeatureHolder: setStatus() : FEATURE_TEXT_GET_ENTITY_UNIT : 0
+09-13 20:13:45.063  4656  4987 I ScsApi@Feature: checkFeature() : FEATURE_TEXT_DETECT_LANGUAGE, sdk : 3.1.24
+09-13 20:13:45.063  4656  4987 I ScsApi@FeatureHolder: setStatus() : FEATURE_TEXT_DETECT_LANGUAGE : 0
+09-13 20:13:45.066 32381 32511 I SCS@AiText: (TextProvider:call) [binder:32381_4] entering in getBasicEntity, enter from com.samsung.android.smartsuggestions
+09-13 20:13:45.066 32381 32511 I SCS@AiText: (ExtractEntityExecutor:extractBasicEntity) start
+09-13 20:13:45.066 32381 32511 I SCS@AiText: (ExtractEntityExecutor:extractBasicEntity) input text length: 58
+09-13 20:13:45.090 32381 32510 I IndianAddressExtractor: No address extracted
+09-13 20:13:45.090 32381 32510 I IndianAddressExtractor: Failed to find unmodified location // no extracted location
+09-13 20:13:45.090 32381 32510 I IndianAddressExtractor: No address extracted
+09-13 20:13:45.091 32381 32510 I SCS@AiText: (ExtractEntityExecutor:extractBasicEntity) bee extracted size: 0
+09-13 20:13:45.091 32381 32510 I SCS@AiText: (ExtractEntityExecutor:extractBasicEntity) end
+09-13 20:13:45.091 32381 32393 I SCS@AiText: (BasicEntityExtractorManager:extractBasicEntitiesImpl) Service: processing entityType: [PHONE_NUMBER, URL, MAP_ADDRESS, EMAIL_ADDRESS], language: etc, country: IN
+09-13 20:13:45.094 32381 32393 I SCS@AiText: (ExtractEntityExecutor:extractBasicEntity) bee extracted size: 0
+09-13 20:13:45.094 32381 32393 I SCS@AiText: (ExtractEntityExecutor:extractBasicEntity) end
+09-13 20:13:45.095 32381 32511 I SCS@AiText: (BasicEntityExtractorManager:extractBasicEntitiesImpl) Service: processing entityType: [DATE_TIME, PHONE_NUMBER, BANK_ACCOUNT, URL, MAP_ADDRESS, UPI_ID, EMAIL_ADDRESS], language: en, country: IN
+09-13 20:13:45.102 32381 32511 I IndianAddressExtractor: Address does not meet construction condition
+09-13 20:13:45.113  4656  4337 I SSS:TextClassifierDelegateFactory: getTextClassifierDelegate textLanguage
+09-13 20:13:45.113  4656  4337 I SSS:TextClassifierDelegateFactory: Use defaultTextClassifier
+09-13 20:13:45.139  4656  4337 I CustomTextClassifierService: generateLinks result: []
+09-13 20:13:45.140  1585  2706 E ClipboardService: Denying clipboard access to com.sec.android.app.myfiles, application is not in focus nor is it a system service for user 0
+09-13 20:13:45.141  1585  2706 E ClipboardService: Denying clipboard access to com.google.android.apps.nbu.paisa.user, application is not in focus nor is it a system service for user 0
+09-13 20:13:45.141  1585  2706 E ClipboardService: Denying clipboard access to com.google.android.gms, application is not in focus nor is it a system service for user 0
+09-13 20:13:45.141  1585  2706 E ClipboardService: Denying clipboard access to com.kakao.talk, application is not in focus nor is it a system service for user 0
+09-13 20:13:45.141  1585  2706 E ClipboardService: Denying clipboard access to com.application.zomato, application is not in focus nor is it a system service for user 0
+09-13 20:13:45.141  1585  2706 E ClipboardService: Denying clipboard access to com.google.android.gm, application is not in focus nor is it a system service for user 0
+09-13 20:13:45.141  1585  2706 E ClipboardService: Denying clipboard access to com.google.android.as, application is not in focus nor is it a system service for user 0
+09-13 20:13:45.143  2781  5084 I ClipboardListener: Clipboard overlay suppressed.
+09-13 20:13:45.151 32381 32511 I IndianAddressExtractor: No address extracted
+09-13 20:13:45.151 32381 32511 I IndianAddressExtractor: Failed to find unmodified location // no extracted location
+09-13 20:13:45.151 32381 32511 I IndianAddressExtractor: No address extracted
+09-13 20:13:45.152 32381 32511 I SCS@AiText: (ExtractEntityExecutor:extractBasicEntity) bee extracted size: 0
+09-13 20:13:45.152 32381 32511 I SCS@AiText: (ExtractEntityExecutor:extractBasicEntity) end
+09-13 20:13:45.172  4656  4987 I SSS:TextClassifierDelegateFactory: getTextClassifierDelegate textLanguage
+09-13 20:13:45.172  4656  4987 I SSS:TextClassifierDelegateFactory: Use defaultTextClassifier
+09-13 20:13:45.198  4656  4987 I CustomTextClassifierService: generateLinks result: []
+09-13 20:13:45.199  5304  5516 I HBD     : d text links size: 0 
+09-13 20:13:45.357   631   631 D io_stats: !@   8,0 r 1306420 35283404 w 721675 9821276 d 232052 10776836 f 0 0 iot 721380 0 th 0 0 0 pt 0 inp 0 0 18831.846
+09-13 20:13:46.047  4751  4751 I SDHMS:LOAD: type: LoadsFreqs, value: 0:0:0:1098623:1766400:1056000:1098623:1766400:1056000:600:600:600
+09-13 20:13:46.361  1585  6432 D SemWifiUsabilityStatsMonitor: onWifiUsabilityStats - seqNum 1643, isSameBssidAndFreq true
+09-13 20:13:46.361  1585  2668 I SemWifiLinkQualityMonitor: Link stat: 1129 / 229 / 1.21 (29) / 72 / -55.0 || 100.0 : 72.00 / B (B) || 0.20 ms / 39.72 Mbps / N || 0 / N / 0 N / 0 Y
+09-13 20:13:46.688  1271  3939 I sensors-hal: handle_sns_client_event:229, auto_rotation_event_2: mode:255, type:1:0/3.695,1.541,9.112, ar:0
+09-13 20:13:48.313 15119 15271 I btaxi.passenger: Waiting for a blocking GC ProfileSaver
+09-13 20:13:48.426 15119 15271 I btaxi.passenger: WaitForGcToComplete blocked ProfileSaver on Background for 112.588ms
+09-13 20:13:48.951  1146  1146 E audit   : type=1400 audit(1757774628.946:38170): avc:  denied  { ioctl } for  pid=1585 comm="binder:1585_18" path="/data/system_ce/0/accounts_ce.db-journal" dev="dm-52" ino=2299669 ioctlcmd=0xf522 scontext=u:r:system_server:s0 tcontext=u:object_r:system_data_file:s0 tclass=file permissive=0 SEPF_SM-A235F_12_0001 audit_filtered
+09-13 20:13:48.951  1146  1146 E audit   : type=1300 audit(1757774628.946:38170): arch=c00000b7 syscall=29 success=no exit=-13 a0=493 a1=f522 a2=1 a3=b595e18db0000000 items=0 ppid=1167 pid=1585 auid=4294967295 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=4294967295 comm="binder:1585_18" exe="/system/bin/app_process64" subj=u:r:system_server:s0 key=(null)
+09-13 20:13:48.951  1146  1146 E audit   : type=1327 audit(1757774628.946:38170): proctitle="system_server"
+09-13 20:13:48.983  1146  1146 E audit   : type=1400 audit(1757774628.978:38171): avc:  denied  { ioctl } for  pid=1585 comm="binder:1585_E" path="/data/system_ce/0/accounts_ce.db-journal" dev="dm-52" ino=2295007 ioctlcmd=0xf522 scontext=u:r:system_server:s0 tcontext=u:object_r:system_data_file:s0 tclass=file permissive=0 SEPF_SM-A235F_12_0001 audit_filtered
+09-13 20:13:48.994  1585  2722 D NetdEventListenerService: DNS Requested by 124, 10225, 4, true, 0
+09-13 20:13:48.996  1585  2722 D NetdEventListenerService: DNS Requested by 124, 10225, 4, true, 0
+09-13 20:13:49.359   631   631 D io_stats: !@   8,0 r 1306666 35291304 w 721953 9822492 d 232112 10777660 f 0 0 iot 721504 0 th 0 0 0 pt 0 inp 0 0 18835.847
+09-13 20:13:49.375  1585  6432 D SemWifiUsabilityStatsMonitor: onWifiUsabilityStats - seqNum 1644, isSameBssidAndFreq true
+09-13 20:13:49.376  1585  2668 I SemWifiLinkQualityMonitor: Link stat: 1465 / 779 / 1.83 (207) / 72 / -63.0 || 100.0 : 72.00 / B (B) || 0.68 ms / 11.70 Mbps / N || 0 / N / 0 N / 0 Y
+09-13 20:13:49.601 26446 26446 I wpa_supplicant: Heartbeat 187
+09-13 20:13:50.491  1585  1631 E Watchdog: !@Sync: 627 heap: 120 / 123 FD: 1212 [2025-09-13 20:13:50.490]
+09-13 20:13:50.997  1585  1640 I ActivityManager: Changes in 10160 5 to 7, 56 to 0
+09-13 20:13:51.000  3403  3403 D HidDeviceService: handleMessage(): msg.what=8
+09-13 20:13:51.157  1585  1640 I ActivityManager: Changes in 10091 5 to 15, 56 to 0
+09-13 20:13:51.159  3403  3403 D HidDeviceService: handleMessage(): msg.what=8
+09-13 20:13:51.360   631   631 D io_stats: !@   8,0 r 1306666 35291304 w 721959 9822552 d 232112 10777660 f 0 0 iot 721512 0 th 0 0 0 pt 0 inp 0 0 18837.848
+09-13 20:13:52.389  1585  6432 D SemWifiUsabilityStatsMonitor: onWifiUsabilityStats - seqNum 1645, isSameBssidAndFreq true
+09-13 20:13:52.389  1585  2668 I SemWifiLinkQualityMonitor: Link stat: 1808 / 523 / 1.35 (35) / 72 / -57.0 || 100.0 : 72.00 / B (B) || 0.21 ms / 37.66 Mbps / N || 0 / N / 0 N / 0 Y
+09-13 20:13:52.557  2886  2886 I EPDG -- SIM0 [SMARTCELLULAR]: onSignalStrengthsChanged: SignalStrength:{mCdma=Invalid,mGsm=Invalid,mWcdma=Invalid,mTdscdma=Invalid,mLte=CellSignalStrengthLte: rssi=-87 rsrp=-116 rsrq=-8 rssnr=8 cqiTableIndex=2147483647 cqi=2147483647 ta=2147483647 level=2 parametersUseForLevel=0,mNr=Invalid,SignalBarInfo{ lteLevel=2 },rat=14,primary=CellSignalStrengthLte}
+09-13 20:13:52.558  2886  3914 I EPDG -- SIM0 [SMARTCELLULAR]: lastLteRSRP is -116 currentLteRSRP is -116 lastLteRSRQ is -9 currentLteRSRQ is -8 lastLteSNR is 8 currentLteSNR is 8
+09-13 20:13:52.558  2781  2781 D StatusBarIconController: ignoring old pipeline callbacks, because the new mobile icons are enabled
+09-13 20:13:52.559  2886  3459 I EPDG -- SIM0 [EpdgRunnable]: Start mWiFiMeasurement
+09-13 20:13:52.559  2886  3459 I EPDG -- SIM0 [EpdgSubScription]: getIsImsCallConnected: returning: false
+09-13 20:13:52.811  3456  3462 I NearbyMediums: No BLE Fast/GATT advertisements found in the latest cycle.
+09-13 20:13:52.812  3456  3462 I NearbyMediums: Current Tracked Scanning Clients are : {NearbyConnections.EnvironmentMonitor, NearbyConnections.TxAdvertisement}
+09-13 20:13:52.977  2781  2781 D StatusBarIconController: ignoring old pipeline callbacks, because the new mobile icons are enabled
+09-13 20:13:52.977  2886  2886 I EPDG -- SIM0 [SMARTCELLULAR]: onSignalStrengthsChanged: SignalStrength:{mCdma=Invalid,mGsm=Invalid,mWcdma=Invalid,mTdscdma=Invalid,mLte=CellSignalStrengthLte: rssi=-87 rsrp=-116 rsrq=-9 rssnr=8 cqiTableIndex=2147483647 cqi=2147483647 ta=2147483647 level=2 parametersUseForLevel=0,mNr=Invalid,SignalBarInfo{ lteLevel=2 },rat=14,primary=CellSignalStrengthLte}
+09-13 20:13:52.978  2886  3914 I EPDG -- SIM0 [SMARTCELLULAR]: lastLteRSRP is -116 currentLteRSRP is -116 lastLteRSRQ is -8 currentLteRSRQ is -9 lastLteSNR is 8 currentLteSNR is 8
+09-13 20:13:52.978  2886  3459 I EPDG -- SIM0 [EpdgRunnable]: Start mWiFiMeasurement
+09-13 20:13:52.978  2886  3459 I EPDG -- SIM0 [EpdgSubScription]: getIsImsCallConnected: returning: false
+09-13 20:13:53.631  3767  5001 V CpEventLog(u0): cp_state: [                 contacts = {contacts=383, raw_contacts=823, data=3784, account={secphone(1)=109, secphone(2)=1, sim2(3)=0, google(4)=250, sim(5)=25, agg(6)=0, samsung(7)=0, mobileservice(8)=0, whatsapp(9)=313, duo(10)=98, org.thoughtcrime.securesms(12)=27, com.twitter.android.auth.login(14)=0, google(27)=0, www.instagram.com(36)=0, www.instagram.com(40)=0, google(41)=0, telegram(44)=0}, trash=0, trash_acc={}, trash_sync=0, database=contacts2.db} ]
+09-13 20:13:53.631  3767  5001 V CpEventLog(u0): cp_state: [               aggregated = {[1,10,9]=1, [1,10]=1, [1,9,10]=32, [1,9,12]=4, [1,9]=65, [1]=6, [2]=1, [4,10]=4, [4,12]=1, [4,4,9]=1, [4,4]=1, [4,9,10,9]=1, [4,9,10]=48, [4,9,12,10,10]=1, [4,9,12,10]=6, [4,9,12,9]=1, [4,9,12]=13, [4,9,9,10]=2, [4,9,9,12,10]=1, [4,9,9]=2, [4,9]=128, [4]=38, [5]=25} ]
+09-13 20:13:53.631  3767  5001 V CpEventLog(u0): cp_state: [                  request = {} ]
+09-13 20:13:53.631  3767  5001 V CpEventLog(u0): cp_state: [                    calls = {types={[100]=33, [1000]=1503, [1150]=464}, database=calllog.db} ]
+09-13 20:13:53.631  3767  5001 V CpEventLog(u0): cp_state: [                  profile = {contacts=0, raw_contacts=0, data=0, account={secphone(1)=0, google(2)=0, sim(3)=0, sim2(4)=0, agg(5)=0, samsung(6)=0, mobileservice(7)=0, whatsapp(8)=0, duo(9)=0, org.thoughtcrime.securesms(11)=0, com.twitter.android.auth.login(13)=0, google(26)=0, www.instagram.com(35)=0, www.instagram.com(39)=0, google(40)=0, telegram(43)=0}, trash=0, trash_acc={}, trash_sync=0, database=profile.db} ]
+09-13 20:13:53.631  3767  5001 V CpEventLog(u0): cp_state: [               sa_profile = {contacts=1, raw_contacts=1, data=1, account={secphone(1)=1, google(2)=0, sim(3)=0, sim2(4)=0, agg(5)=0, samsung(6)=0, mobileservice(7)=0, whatsapp(8)=0, duo(9)=0, org.thoughtcrime.securesms(11)=0, com.twitter.android.auth.login(13)=0, google(26)=0, www.instagram.com(35)=0, www.instagram.com(39)=0, google(40)=0, telegram(43)=0}, trash=0, trash_acc={}, trash_sync=0, database=profile_sa.db} ]
+09-13 20:13:53.631  3767  5001 V CpEventLog(u0): cp_state: [                      etc = {binders=0, country_iso=IN, version=15.0.65, db_version=1708, csc=/INS} ]
+09-13 20:13:53.631  3767  5001 V CpEventLog(u0): cp_state: ------------------------------------------------------------------------------
+09-13 20:13:53.957  3767  5001 V CpEventLog(u0): cp_state: [                 contacts = {contacts=383, raw_contacts=823, data=3784, account={secphone(1)=109, secphone(2)=1, sim2(3)=0, google(4)=250, sim(5)=25, agg(6)=0, samsung(7)=0, mobileservice(8)=0, whatsapp(9)=313, duo(10)=98, org.thoughtcrime.securesms(12)=27, com.twitter.android.auth.login(14)=0, google(27)=0, www.instagram.com(36)=0, www.instagram.com(40)=0, google(41)=0, telegram(44)=0}, trash=0, trash_acc={}, trash_sync=0, database=contacts2.db} ]
+09-13 20:13:53.957  3767  5001 V CpEventLog(u0): cp_state: [               aggregated = {[1,10,9]=1, [1,10]=1, [1,9,10]=32, [1,9,12]=4, [1,9]=65, [1]=6, [2]=1, [4,10]=4, [4,12]=1, [4,4,9]=1, [4,4]=1, [4,9,10,9]=1, [4,9,10]=48, [4,9,12,10,10]=1, [4,9,12,10]=6, [4,9,12,9]=1, [4,9,12]=13, [4,9,9,10]=2, [4,9,9,12,10]=1, [4,9,9]=2, [4,9]=128, [4]=38, [5]=25} ]
+09-13 20:13:53.957  3767  5001 V CpEventLog(u0): cp_state: [                  request = {} ]
+09-13 20:13:53.957  3767  5001 V CpEventLog(u0): cp_state: [                    calls = {types={[100]=33, [1000]=1503, [1150]=464}, database=calllog.db} ]
+09-13 20:13:53.957  3767  5001 V CpEventLog(u0): cp_state: [                  profile = {contacts=0, raw_contacts=0, data=0, account={secphone(1)=0, google(2)=0, sim(3)=0, sim2(4)=0, agg(5)=0, samsung(6)=0, mobileservice(7)=0, whatsapp(8)=0, duo(9)=0, org.thoughtcrime.securesms(11)=0, com.twitter.android.auth.login(13)=0, google(26)=0, www.instagram.com(35)=0, www.instagram.com(39)=0, google(40)=0, telegram(43)=0}, trash=0, trash_acc={}, trash_sync=0, database=profile.db} ]
+09-13 20:13:53.957  3767  5001 V CpEventLog(u0): cp_state: [               sa_profile = {contacts=1, raw_contacts=1, data=1, account={secphone(1)=1, google(2)=0, sim(3)=0, sim2(4)=0, agg(5)=0, samsung(6)=0, mobileservice(7)=0, whatsapp(8)=0, duo(9)=0, org.thoughtcrime.securesms(11)=0, com.twitter.android.auth.login(13)=0, google(26)=0, www.instagram.com(35)=0, www.instagram.com(39)=0, google(40)=0, telegram(43)=0}, trash=0, trash_acc={}, trash_sync=0, database=profile_sa.db} ]
+09-13 20:13:53.957  3767  5001 V CpEventLog(u0): cp_state: [                      etc = {binders=0, country_iso=IN, version=15.0.65, db_version=1708, csc=/INS} ]
+09-13 20:13:53.957  3767  5001 V CpEventLog(u0): cp_state: ------------------------------------------------------------------------------
+09-13 20:13:54.930  1248  1248 I android.hardware.health@2.1-service-samsung: updateLrpSysfs: write: 339
+09-13 20:13:55.361   631   631 D io_stats: !@   8,0 r 1306667 35291308 w 721977 9825864 d 232112 10777660 f 0 0 iot 721560 0 th 0 0 0 pt 0 inp 0 0 18841.850
+09-13 20:13:55.405  1585  6432 D SemWifiUsabilityStatsMonitor: onWifiUsabilityStats - seqNum 1646, isSameBssidAndFreq true
+09-13 20:13:55.407  1585  2668 I SemWifiLinkQualityMonitor: Link stat: 1468 / 491 / 1.27 (42) / 72 / -57.0 || 100.0 : 72.00 / B (B) || 0.22 ms / 36.48 Mbps / N || 0 / N / 0 N / 0 Y
+09-13 20:13:56.169  4751  4751 I SDHMS:LOAD: type: LoadsFreqs, value: 0:0:0:1070208:1766400:1056000:1070208:1766400:1056000:600:600:600
+09-13 20:13:57.189  2886  2886 I EPDG -- SIM0 [SMARTCELLULAR]: onSignalStrengthsChanged: SignalStrength:{mCdma=Invalid,mGsm=Invalid,mWcdma=Invalid,mTdscdma=Invalid,mLte=CellSignalStrengthLte: rssi=-83 rsrp=-114 rsrq=-8 rssnr=8 cqiTableIndex=2147483647 cqi=2147483647 ta=2147483647 level=2 parametersUseForLevel=0,mNr=Invalid,SignalBarInfo{ lteLevel=2 },rat=14,primary=CellSignalStrengthLte}
+09-13 20:13:57.190  2886  3914 I EPDG -- SIM0 [SMARTCELLULAR]: lastLteRSRP is -116 currentLteRSRP is -114 lastLteRSRQ is -9 currentLteRSRQ is -8 lastLteSNR is 8 currentLteSNR is 8
+09-13 20:13:57.190  2886  3459 I EPDG -- SIM0 [EpdgRunnable]: Start mWiFiMeasurement
+09-13 20:13:57.190  2886  3459 I EPDG -- SIM0 [EpdgSubScription]: getIsImsCallConnected: returning: false
+09-13 20:13:57.190  2781  2781 D StatusBarIconController: ignoring old pipeline callbacks, because the new mobile icons are enabled
+09-13 20:13:57.250  1271  3939 I sensors-hal: handle_sns_client_event:229, auto_rotation_event_2: mode:255, type:1:0/-0.735,6.224,7.683, ar:0
+09-13 20:13:58.421  1585  6432 D SemWifiUsabilityStatsMonitor: onWifiUsabilityStats - seqNum 1647, isSameBssidAndFreq true
+09-13 20:13:58.421  1585  2668 I SemWifiLinkQualityMonitor: Link stat: 1512 / 407 / 1.10 (75) / 72 / -48.0 || 100.0 : 72.00 / B (B) || 0.21 ms / 38.16 Mbps / N || 0 / N / 0 N / 0 Y
+09-13 20:13:58.500  1585  5109 D WifiConnectivityMonitor.DnsThread:  [|207] []
+09-13 20:13:58.501  1585  2694 D WifiConnectivityMonitor.NetworkStatsAnalyzer: DNS resultType : 0, responseTime : 207
+09-13 20:13:58.502  1585  2690 D OpenNetworkQos[4.00]: updateBssidLatestDnsResultType - result: 0
+09-13 20:13:58.502  1585  2690 D OpenNetworkQos[4.00]: updateBssidNoInternet: mBssidNoInternet = false
+09-13 20:13:58.502  1585  2690 D OpenNetworkQos[4.00]: getOpenNetworkQosNoInternetStatus: false
+09-13 20:13:58.502  1585  2690 D OpenNetworkQos[4.00]: getOpenNetworkQosScores: 26 30 10 
+09-13 20:13:58.502  1585  2690 D KNOX_MDM_SettingsProvider: isChangeAllowed() : name = wifi_wcm_qos_sharing_score_summary
+09-13 20:13:58.502  1585  2690 I WifiProfileShare: network QoS data was changed (internet), updateQoSData networkType: true, qosData: false
+09-13 20:13:58.503  1585  3588 D WifiProfileShare: nearby scanning settings stop
+09-13 20:13:58.503  1585  3588 V WifiProfileShare.Caster: checkAndGetShareData - nearby scanning
+09-13 20:13:59.002  2886  2886 I EPDG -- SIM0 [SMARTCELLULAR]: onSignalStrengthsChanged: SignalStrength:{mCdma=Invalid,mGsm=Invalid,mWcdma=Invalid,mTdscdma=Invalid,mLte=CellSignalStrengthLte: rssi=-81 rsrp=-113 rsrq=-9 rssnr=8 cqiTableIndex=2147483647 cqi=2147483647 ta=2147483647 level=2 parametersUseForLevel=0,mNr=Invalid,SignalBarInfo{ lteLevel=2 },rat=14,primary=CellSignalStrengthLte}
+09-13 20:13:59.003  2886  3914 I EPDG -- SIM0 [SMARTCELLULAR]: lastLteRSRP is -114 currentLteRSRP is -113 lastLteRSRQ is -8 currentLteRSRQ is -9 lastLteSNR is 8 currentLteSNR is 8
+09-13 20:13:59.003  2886  3459 I EPDG -- SIM0 [EpdgRunnable]: Start mWiFiMeasurement
+09-13 20:13:59.004  2886  3459 I EPDG -- SIM0 [EpdgSubScription]: getIsImsCallConnected: returning: false
+09-13 20:13:59.004  2781  2781 D StatusBarIconController: ignoring old pipeline callbacks, because the new mobile icons are enabled
+09-13 20:13:59.608 26446 26446 I wpa_supplicant: Heartbeat 188
+09-13 20:14:00.004  2781  3342 I DateTimeView: updateAll - getTimeFormat
+09-13 20:14:00.006  2781  3342 D QSClockBellTower: onReceive(android.intent.action.TIME_TICK) mTimeZoneString:Asia/Kolkata
+09-13 20:14:00.010  2781  2781 D FaceWidgetPagesController: onTimeChanged()
+09-13 20:14:00.016  2781  2781 D QSClockBellTower: He is ready to ring the bell. (((QSClockBellSound - TimeText:8:14, TimeContentDescription:8:14 pm, DateText:Sat, 13 September, ShortDateText:Sat, 13 Sept, Demo:false, QuickStar-Second(false|12:34:56), QuickStar-DateText:Sat, 13 Sept)))
+09-13 20:14:00.017  2781  2781 D QSClock : StatusBar clock=8:14 notifyTimeChanged(QSClockBellSound - TimeText:8:14, TimeContentDescription:8:14 pm, DateText:Sat, 13 September, ShortDateText:Sat, 13 Sept, Demo:false, QuickStar-Second(false|12:34:56), QuickStar-DateText:Sat, 13 Sept) clockVisibleByPolicy=true, clockVisibleByUser=true, visible=true, parent=android.widget.LinearLayout{10d1409 V.E...... ......ID 0,0-76,58 #7f0a0591 app:id/left_clock_container}
+09-13 20:14:00.017  2781  2781 D QSClockBellTower: Everyone heard the bell. run(currentTime:1757774640015, getTime():Sat Sep 13 20:14:00 GMT+05:30 2025, getTimeZone():libcore.util.ZoneInfo[mDstSavings=0,mUseDst=false,mDelegate=[id="Asia/Kolkata",mRawOffset=19800000,mEarliestRawOffset=21208000,transitions=7]])
+09-13 20:14:00.025  2781  2781 D QsExpandAnimator: mIsDateButtonOverlapped = false >> false, (369.0 + 375) = 744.0 : 984
+09-13 20:14:00.034  2781  2781 W View    : requestLayout() improperly called by android.widget.FrameLayout{c873ab0 V.E...... ......ID 0,128-1080,2273 #7f0a0846 app:id/qs_frame} during layout: running second layout pass
+09-13 20:14:00.061  1450  1450 D SurfaceFlinger: GPIS:: requestGPISForClientComposition
+09-13 20:14:00.070  1450  2489 D NativeSemDvfsManager: acquire:: timeout = 2000 mIsAcquired = 1  mTagName : SurfaceFlinger 
+09-13 20:14:00.071  1450  2489 E NativeCustomFrequencyManager: [NativeCFMS] BpCustomFrequencyManager::acquire()
+09-13 20:14:00.071  1274  1372 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 3003475  [1450 / 1000]    HINT : SF_GPU_MINLOCK    list : [TIMEOUT / 2000] 
+09-13 20:14:00.089  1766  4312 D BufferPoolAccessor2.0: bufferpool2 0xb400007d4e050e28 : 1(721 size) total buffers - 1(721 size) used buffers - 96/202 (recycle/alloc) - 108/201 (fetch/transfer)
+09-13 20:14:01.364   631   631 D io_stats: !@   8,0 r 1306667 35291308 w 721989 9827352 d 232112 10777660 f 0 0 iot 721580 0 th 0 0 0 pt 0 inp 0 0 18847.853
+09-13 20:14:01.434  1585  6432 D SemWifiUsabilityStatsMonitor: onWifiUsabilityStats - seqNum 1648, isSameBssidAndFreq true
+09-13 20:14:01.434  1585  2668 I SemWifiLinkQualityMonitor: Link stat: 2255 / 578 / 1.38 (165) / 72 / -47.0 || 100.0 : 72.00 / B (B) || 0.21 ms / 38.48 Mbps / N || 0 / N / 0 N / 0 Y
+09-13 20:14:02.075  1274  5112 I HYPER-HAL: [RequestManager.cpp]releaseLocked(): Released ID : 3003475
+09-13 20:14:03.910  2886  2886 I EPDG -- SIM0 [SMARTCELLULAR]: onSignalStrengthsChanged: SignalStrength:{mCdma=Invalid,mGsm=Invalid,mWcdma=Invalid,mTdscdma=Invalid,mLte=CellSignalStrengthLte: rssi=-81 rsrp=-110 rsrq=-8 rssnr=9 cqiTableIndex=2147483647 cqi=2147483647 ta=2147483647 level=2 parametersUseForLevel=0,mNr=Invalid,SignalBarInfo{ lteLevel=2 },rat=14,primary=CellSignalStrengthLte}
+09-13 20:14:03.910  2886  3914 I EPDG -- SIM0 [SMARTCELLULAR]: lastLteRSRP is -113 currentLteRSRP is -110 lastLteRSRQ is -9 currentLteRSRQ is -8 lastLteSNR is 8 currentLteSNR is 9
+09-13 20:14:03.912  2781  2781 D StatusBarIconController: ignoring old pipeline callbacks, because the new mobile icons are enabled
+09-13 20:14:04.313  1585  2722 D NetdEventListenerService: DNS Requested by 124, 10336, 4, true, 0
+09-13 20:14:04.455  1585  6432 D SemWifiUsabilityStatsMonitor: onWifiUsabilityStats - seqNum 1649, isSameBssidAndFreq true
+09-13 20:14:04.456  1585  2668 I SemWifiLinkQualityMonitor: Link stat: 1533 / 485 / 1.40 (35) / 72 / -48.0 || 100.0 : 72.00 / B (B) || 0.22 ms / 36.96 Mbps / N || 0 / N / 0 N / 0 Y
+09-13 20:14:04.915  1585  1616 I system_server: Background concurrent copying GC freed 15MB AllocSpace bytes, 408(8104KB) LOS objects, 19% free, 99MB/123MB, paused 497us,287us total 459.385ms
+09-13 20:14:04.921  1585  1618 W System  : A resource failed to call close. 
+09-13 20:14:04.921  1585  1618 W System  : A resource failed to call close. 
+09-13 20:14:04.921  1585  1618 W System  : A resource failed to call close. 
+09-13 20:14:04.922  1585  1618 W System  : A resource failed to call close. 
+09-13 20:14:05.367   631   631 D io_stats: !@   8,0 r 1306667 35291308 w 722008 9828860 d 232112 10777660 f 0 0 iot 721604 0 th 0 0 0 pt 0 inp 0 0 18851.855
+09-13 20:14:05.788  1585  2722 D NetdEventListenerService: DNS Requested by 124, 10336, 4, true, 0
+09-13 20:14:06.148  2886  2886 I EPDG -- SIM0 [SMARTCELLULAR]: onSignalStrengthsChanged: SignalStrength:{mCdma=Invalid,mGsm=Invalid,mWcdma=Invalid,mTdscdma=Invalid,mLte=CellSignalStrengthLte: rssi=-87 rsrp=-110 rsrq=-8 rssnr=9 cqiTableIndex=2147483647 cqi=2147483647 ta=2147483647 level=2 parametersUseForLevel=0,mNr=Invalid,SignalBarInfo{ lteLevel=2 },rat=14,primary=CellSignalStrengthLte}
+09-13 20:14:06.149  2886  3914 I EPDG -- SIM0 [SMARTCELLULAR]: lastLteRSRP is -110 currentLteRSRP is -110 lastLteRSRQ is -8 currentLteRSRQ is -8 lastLteSNR is 9 currentLteSNR is 9
+09-13 20:14:06.149  2781  2781 D StatusBarIconController: ignoring old pipeline callbacks, because the new mobile icons are enabled
+09-13 20:14:06.289  4751  4751 I SDHMS:LOAD: type: LoadsFreqs, value: 0:0:0:1147008:1766400:1056000:1147008:1766400:1056000:600:600:600
+09-13 20:14:07.095  1766  2112 D BufferPoolAccessor2.0: bufferpool2 0xb400007d4e050e28 : 7(1729 size) total buffers - 0(0 size) used buffers - 100/212 (recycle/alloc) - 115/212 (fetch/transfer)
+09-13 20:14:07.095  1766  2112 D BufferPoolAccessor2.0: evictor expired: 1, evicted: 1
+09-13 20:14:07.471  1585  6432 D SemWifiUsabilityStatsMonitor: onWifiUsabilityStats - seqNum 1650, isSameBssidAndFreq true
+09-13 20:14:07.472  1585  2668 I SemWifiLinkQualityMonitor: Link stat: 1786 / 323 / 1.09 (36) / 72 / -50.0 || 100.0 : 72.00 / B (B) || 0.20 ms / 40.20 Mbps / N || 0 / N / 0 N / 0 Y
+09-13 20:14:07.748  1271  3939 I sensors-hal: handle_sns_client_event:217, auto_rotation_event_2: 255/0.828,-0.589,10.167, ar:0
+09-13 20:14:07.753  1585  1626 D WindowOrientationListener: onSensorChanged device orientation: -1
+09-13 20:14:07.753  2781  2781 D AppController: AppControlSensorListener.onSensorChanged, Rotation: -1
+09-13 20:14:07.754  2781  2781 I NavigationBar: onRotationProposal proposedRotation=-1, isValid=false, mNavBarWindowState=WINDOW_STATE_SHOWING, rotateSuggestionsDisabled=false, isRotateButtonVisible=false
+09-13 20:14:07.813  3456  3462 I NearbyMediums: No BLE Fast/GATT advertisements found in the latest cycle.
+09-13 20:14:07.813  3456  3462 I NearbyMediums: Current Tracked Scanning Clients are : {NearbyConnections.EnvironmentMonitor, NearbyConnections.TxAdvertisement}
+09-13 20:14:07.814  1271  3939 I sensors-hal: handle_sns_client_event:229, auto_rotation_event_2: mode:255, type:1:0/0.519,-0.543,9.669, ar:0
+09-13 20:14:09.614 26446 26446 I wpa_supplicant: Heartbeat 189
+09-13 20:14:10.496  1585  6432 D SemWifiUsabilityStatsMonitor: onWifiUsabilityStats - seqNum 1651, isSameBssidAndFreq true
+09-13 20:14:10.499  1585  2668 I SemWifiLinkQualityMonitor: Link stat: 1628 / 391 / 1.42 (159) / 72 / -52.0 || 100.0 : 72.00 / B (B) || 0.21 ms / 38.86 Mbps / N || 0 / N / 0 N / 0 Y
+09-13 20:14:11.192  2886  2886 I EPDG -- SIM0 [SMARTCELLULAR]: onSignalStrengthsChanged: SignalStrength:{mCdma=Invalid,mGsm=Invalid,mWcdma=Invalid,mTdscdma=Invalid,mLte=CellSignalStrengthLte: rssi=-89 rsrp=-111 rsrq=-8 rssnr=8 cqiTableIndex=2147483647 cqi=2147483647 ta=2147483647 level=2 parametersUseForLevel=0,mNr=Invalid,SignalBarInfo{ lteLevel=2 },rat=14,primary=CellSignalStrengthLte}
+09-13 20:14:11.193  2886  3914 I EPDG -- SIM0 [SMARTCELLULAR]: lastLteRSRP is -110 currentLteRSRP is -111 lastLteRSRQ is -8 currentLteRSRQ is -8 lastLteSNR is 9 currentLteSNR is 8
+09-13 20:14:11.193  2886  3914 I EPDG -- SIM0 [SMARTCELLULAR]: postLteRunnableFinal: mIsLteAvailable is false
+09-13 20:14:11.193  2781  2781 D StatusBarIconController: ignoring old pipeline callbacks, because the new mobile icons are enabled
+09-13 20:14:11.193  2886  3459 I EPDG -- SIM0 [EpdgSubScription]:  mWifiRssiA :-70 mWifiRssiB:-80 mWifiRssiC:0 mWifiRssiRoveInWifiOnly:0 mWifiRssiRoveOutWifiOnly:0 mWifiRssiRoveInVoice:0 mLteRsrp1:-110 mLteRsrp2:0 mLteRsrp3:-105 mNrRsrp1:0 mNrRsrp2:0 mNrRsrp3:0
+09-13 20:14:11.193  2886  3459 I EPDG -- SIM0 [EpdgSubScription]: TimerStatus :
+09-13 20:14:11.193  2886  3459 I EPDG -- SIM0 [EpdgSubScription]: retryL2WHandoverIfRequired(): apnType: ims networkType: 11
+09-13 20:14:11.193  2886  3459 I EPDG -- SIM0 [UTILS]: isAlwaysOnApn(): result is: true
+09-13 20:14:11.193  2886  3459 I EPDG -- SIM0 [EpdgSubScription]: getIsAirplaneMode: returning: false
+09-13 20:14:11.193  2886  3459 I EPDG -- SIM0 [IfomTable]: checkIsRuleforApn: appStr is: idle apnType is: ims
+09-13 20:14:11.194  2886  3459 I EPDG -- SIM0 [SMARTCELLULAR]: LTE Available: false
+09-13 20:14:11.195  2886  3459 I EPDG -- SIM0 [EpdgSubScription]: volteSetting(true) for VOICECALL_TYPE_KEY: voicecall_type
+09-13 20:14:11.196  2886  3459 I EPDG -- SIM0 [PolicyMgr]: [HO_OPTIMIZATION]isMapconResultToWifi: LTE (false) VoWIFI (true) call (idle) roaming (false) VoLTE (true) voice rat (13) data rat (18) result (true)
+09-13 20:14:11.196  2886  3459 I EPDG -- SIM0 [SMARTCELLULAR]: LTE Available: false
+09-13 20:14:11.196  2886  3459 I EPDG -- SIM0 [EpdgSubScription]: It is false that CpThresholdCondition for handover
+09-13 20:14:11.196  2886  3459 I EPDG -- SIM0 [PolicyMgr]: isMapconResultToWifi: ims,idle result=true
+09-13 20:14:11.196  2886  3459 I EPDG -- SIM0 [PolicyMgr]: [HO_OPTIMIZATION]isL2WRecommended(): result is: true
+09-13 20:14:11.196  2886  3459 I EPDG -- SIM0 [EpdgSubScription]: isOngoingConnectionOverWifi: returning result: trueConnected Check : true
+09-13 20:14:11.197  2886  3459 I EPDG -- SIM0 [EpdgSubScription]: epdg connected. Ignore retry L2W Handover
+09-13 20:14:11.197  2886  3459 I EPDG -- SIM0 [ThrottleController]: isThrottleTimerRunning: apnType: ims. result: false
+09-13 20:14:11.197  2886  3459 I EPDG -- SIM0 [PolicyMgr]: getApnRatPolicy: default,idle only LTE is allowed RAT
+09-13 20:14:11.197  2886  3459 I EPDG -- SIM0 [PolicyMgr]: getApnRatPolicy: default,idle result=LTE
+09-13 20:14:11.197  2886  3459 I EPDG -- SIM0 [PolicyMgr]: getApnRatPolicy: mms,idle only LTE is allowed RAT
+09-13 20:14:11.197  2886  3459 I EPDG -- SIM0 [PolicyMgr]: getApnRatPolicy: mms,idle result=LTE
+09-13 20:14:11.197  2886  3459 I EPDG -- SIM0 [PolicyMgr]: getApnRatPolicy: supl,idle only LTE is allowed RAT
+09-13 20:14:11.197  2886  3459 I EPDG -- SIM0 [PolicyMgr]: getApnRatPolicy: supl,idle result=LTE
+09-13 20:14:11.197  2886  3459 I EPDG -- SIM0 [PolicyMgr]: getApnRatPolicy: dun,idle only LTE is allowed RAT
+09-13 20:14:11.197  2886  3459 I EPDG -- SIM0 [PolicyMgr]: getApnRatPolicy: dun,idle result=LTE
+09-13 20:14:11.197  2886  3459 I EPDG -- SIM0 [PolicyMgr]: getApnRatPolicy: hipri,idle only LTE is allowed RAT
+09-13 20:14:11.197  2886  3459 I EPDG -- SIM0 [PolicyMgr]: getApnRatPolicy: hipri,idle result=LTE
+09-13 20:14:11.197  2886  3459 I EPDG -- SIM0 [PolicyMgr]: getApnRatPolicy: fota,idle only LTE is allowed RAT
+09-13 20:14:11.197  2886  3459 I EPDG -- SIM0 [PolicyMgr]: getApnRatPolicy: fota,idle result=LTE
+09-13 20:14:11.197  2886  3459 I EPDG -- SIM0 [EpdgSubScription]: getIsAirplaneMode: returning: false
+09-13 20:14:11.197  2886  3459 I EPDG -- SIM0 [IfomTable]: checkIsRuleforApn: appStr is: idle apnType is: ims
+09-13 20:14:11.197  2886  3459 I EPDG -- SIM0 [PolicyMgr]: getApnRatPolicy: ims,idle result=IWLAN:LTE
+09-13 20:14:11.197  2886  3459 I EPDG -- SIM0 [EpdgSubScription]: isPdnConnectedOverWifi: returning result: true for apnType: ims
+09-13 20:14:11.197  2886  3459 I EPDG -- SIM0 [PolicyMgr]: getApnRatPolicy: cbs,idle only LTE is allowed RAT
+09-13 20:14:11.197  2886  3459 I EPDG -- SIM0 [PolicyMgr]: getApnRatPolicy: cbs,idle result=LTE
+09-13 20:14:11.198  2886  3459 I EPDG -- SIM0 [PolicyMgr]: getApnRatPolicy: ia,idle only LTE is allowed RAT
+09-13 20:14:11.198  2886  3459 I EPDG -- SIM0 [PolicyMgr]: getApnRatPolicy: ia,idle result=LTE
+09-13 20:14:11.198  2886  3459 I EPDG -- SIM0 [PolicyMgr]: getApnRatPolicy: emergency,idle only LTE is allowed RAT
+09-13 20:14:11.198  2886  3459 I EPDG -- SIM0 [PolicyMgr]: getApnRatPolicy: emergency,idle result=LTE
+09-13 20:14:11.198  2886  3459 I EPDG -- SIM0 [PolicyMgr]: getApnRatPolicy: mcx,idle only LTE is allowed RAT
+09-13 20:14:11.198  2886  3459 I EPDG -- SIM0 [PolicyMgr]: getApnRatPolicy: mcx,idle result=LTE
+09-13 20:14:11.198  2886  3459 I EPDG -- SIM0 [PolicyMgr]: getApnRatPolicy: xcap,idle only LTE is allowed RAT
+09-13 20:14:11.198  2886  3459 I EPDG -- SIM0 [PolicyMgr]: getApnRatPolicy: xcap,idle result=LTE
+09-13 20:14:11.198  2886  3459 I EPDG -- SIM0 [EpdgSubScription]: getHandoverEnableSetting: true
+09-13 20:14:11.198  2886  3459 I EPDG -- SIM0 [UTILS]: getSubIdFromSpecifier() : return : 2
+09-13 20:14:11.199  2886  3459 I EPDG -- SIM0 [UTILS]: getNetworkForType: subIdFromSpecifier: 2
+09-13 20:14:11.199  2886  3459 I EPDG -- SIM0 [UTILS]: getNetworkForType: returning Network for type: 11
+09-13 20:14:11.199  2886  3459 I EPDG -- SIM0 [UTILS]: getNetworkInfo: returning networkInfo [type: MOBILE[LTE], state: CONNECTED/CONNECTED, reason: (unspecified), extra: IMS, failover: false, available: true, roaming: false]
+09-13 20:14:11.199  2886  3459 I EPDG -- SIM0 [EpdgSubScription]: notifyQualifiedNetworksChange to telephony
+09-13 20:14:11.199  2886  3459 I EPDG -- SIM0 [EpdgRunnable]: Start mWiFiMeasurement
+09-13 20:14:11.199  2886  3459 I EPDG -- SIM0 [EpdgSubScription]: getIsImsCallConnected: returning: false
+09-13 20:14:11.369   631   631 D io_stats: !@   8,0 r 1306667 35291308 w 722019 9830680 d 232112 10777660 f 0 0 iot 721628 0 th 0 0 0 pt 0 inp 0 0 18857.858
+09-13 20:14:13.532  1585  6432 D SemWifiUsabilityStatsMonitor: onWifiUsabilityStats - seqNum 1652, isSameBssidAndFreq true
+09-13 20:14:13.532  1585  2668 I SemWifiLinkQualityMonitor: Link stat: 781 / 68 / 1.00 (22) / 72 / -56.0 || 100.0 : 72.00 / B (B) || 0.19 ms / 42.11 Mbps / N || 0 / N / 0 N / 0 Y
+09-13 20:14:14.234  4751  5638 I SDHMS:C : SIOP:: AP:322 BAT:331 USB:0 CHG:358 PA:329 WIFI:333 BLK:0 SUBBAT:0 SKIN:338 LRP:338 LRP2:338 LRF2:324 LRB2:338 AP2:338 CHG2:330 WIFI2:338 SPK2:338 VAP:325 
+09-13 20:14:14.243  2886  2886 I EPDG -- SIM0 [SMARTCELLULAR]: onSignalStrengthsChanged: SignalStrength:{mCdma=Invalid,mGsm=Invalid,mWcdma=Invalid,mTdscdma=Invalid,mLte=CellSignalStrengthLte: rssi=-89 rsrp=-113 rsrq=-8 rssnr=7 cqiTableIndex=2147483647 cqi=2147483647 ta=2147483647 level=2 parametersUseForLevel=0,mNr=Invalid,SignalBarInfo{ lteLevel=2 },rat=14,primary=CellSignalStrengthLte}
+09-13 20:14:14.243  2886  3914 I EPDG -- SIM0 [SMARTCELLULAR]: lastLteRSRP is -111 currentLteRSRP is -113 lastLteRSRQ is -8 currentLteRSRQ is -8 lastLteSNR is 8 currentLteSNR is 7
+09-13 20:14:14.244  2886  3459 I EPDG -- SIM0 [EpdgRunnable]: Start mWiFiMeasurement
+09-13 20:14:14.244  2781  2781 D StatusBarIconController: ignoring old pipeline callbacks, because the new mobile icons are enabled
+09-13 20:14:14.244  2886  3459 I EPDG -- SIM0 [EpdgSubScription]: getIsImsCallConnected: returning: false
+09-13 20:14:15.371   631   631 D io_stats: !@   8,0 r 1306667 35291308 w 722030 9831936 d 232112 10777660 f 0 0 iot 721652 0 th 0 0 0 pt 0 inp 0 0 18861.859
+09-13 20:14:16.420  4751  4751 I SDHMS:LOAD: type: LoadsFreqs, value: 0:0:0:1056000:1056000:1056000:1056000:1056000:1056000:600:600:600
+09-13 20:14:16.545  1585  6432 D SemWifiUsabilityStatsMonitor: onWifiUsabilityStats - seqNum 1653, isSameBssidAndFreq true
+09-13 20:14:16.547  1585  2668 I SemWifiLinkQualityMonitor: Link stat: 1531 / 425 / 1.58 (30) / 72 / -51.0 || 100.0 : 72.00 / B (B) || 0.52 ms / 15.35 Mbps / N || 0 / N / 0 N / 0 Y
+09-13 20:14:18.059  1585  2621 D UsbStatsMonitor: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+09-13 20:14:18.146  2886  2886 I EPDG -- SIM0 [SMARTCELLULAR]: onSignalStrengthsChanged: SignalStrength:{mCdma=Invalid,mGsm=Invalid,mWcdma=Invalid,mTdscdma=Invalid,mLte=CellSignalStrengthLte: rssi=-89 rsrp=-116 rsrq=-9 rssnr=5 cqiTableIndex=2147483647 cqi=2147483647 ta=2147483647 level=2 parametersUseForLevel=0,mNr=Invalid,SignalBarInfo{ lteLevel=2 },rat=14,primary=CellSignalStrengthLte}
+09-13 20:14:18.147  2886  3914 I EPDG -- SIM0 [SMARTCELLULAR]: lastLteRSRP is -113 currentLteRSRP is -116 lastLteRSRQ is -8 currentLteRSRQ is -9 lastLteSNR is 7 currentLteSNR is 5
+09-13 20:14:18.147  2886  3459 I EPDG -- SIM0 [EpdgRunnable]: Start mWiFiMeasurement
+09-13 20:14:18.147  2886  3459 I EPDG -- SIM0 [EpdgSubScription]: getIsImsCallConnected: returning: false
+09-13 20:14:18.150  2781  2781 D StatusBarIconController: ignoring old pipeline callbacks, because the new mobile icons are enabled
+09-13 20:14:18.279 19103 19207 E msys    : E[N mns]_OnDiskCacheGetData(589)=>Start post callback cache refresh DNS resolution
+09-13 20:14:18.281 19103 19207 W LibevQuicAsyncUDPSocket.h: setTosOrTrafficClass not implemented in LibevQuicAsyncUDPSocket
+09-13 20:14:18.285 19103 19207 E MvfstCallbacks.cpp: onConnectionSetupError: error=TransportError: Internal Error, Error on socket write Operation not permitted, 
+09-13 20:14:18.286 19103 19207 E msys    : E[N mns]_OnDiskCacheGetData(589)=>Start post callback cache refresh DNS resolution
+09-13 20:14:18.292 19103 19207 E msys    : E[N mns]_LogError(205)=>Failed to resolve using system DNS resolver, getaddrinfo(): No address associated with hostname
+09-13 20:14:18.292 19103 19207 E msys    : E[N mns]_LogError(205)=>Failed to resolve using system DNS resolver, getaddrinfo(): No address associated with hostname
+09-13 20:14:18.293  1585  2722 D NetdEventListenerService: DNS Requested by 124, 10334, 4, true, 0
+09-13 20:14:18.294  1585  2722 D NetdEventListenerService: DNS Requested by 124, 10334, 4, true, 0
+09-13 20:14:18.377  1271  3939 I sensors-hal: handle_sns_client_event:229, auto_rotation_event_2: mode:255, type:1:0/0.538,-0.569,9.913, ar:0
+09-13 20:14:19.372   631   631 D io_stats: !@   8,0 r 1306675 35291704 w 722030 9831936 d 232112 10777660 f 0 0 iot 721668 0 th 0 0 0 pt 0 inp 0 0 18865.861
+09-13 20:14:19.563  1585  6432 D SemWifiUsabilityStatsMonitor: onWifiUsabilityStats - seqNum 1654, isSameBssidAndFreq true
+09-13 20:14:19.565  1585  2668 I SemWifiLinkQualityMonitor: Link stat: 1857 / 285 / 1.10 (133) / 72 / -49.0 || 100.0 : 72.00 / B (B) || 0.20 ms / 40.78 Mbps / N || 0 / N / 0 N / 0 Y
+09-13 20:14:19.620 26446 26446 I wpa_supplicant: Heartbeat 190
+09-13 20:14:20.388  2886  2886 I EPDG -- SIM0 [SMARTCELLULAR]: onSignalStrengthsChanged: SignalStrength:{mCdma=Invalid,mGsm=Invalid,mWcdma=Invalid,mTdscdma=Invalid,mLte=CellSignalStrengthLte: rssi=-91 rsrp=-117 rsrq=-9 rssnr=4 cqiTableIndex=2147483647 cqi=2147483647 ta=2147483647 level=2 parametersUseForLevel=0,mNr=Invalid,SignalBarInfo{ lteLevel=2 },rat=14,primary=CellSignalStrengthLte}
+09-13 20:14:20.389  2886  3914 I EPDG -- SIM0 [SMARTCELLULAR]: lastLteRSRP is -116 currentLteRSRP is -117 lastLteRSRQ is -9 currentLteRSRQ is -9 lastLteSNR is 5 currentLteSNR is 4
+09-13 20:14:20.389  2781  2781 D StatusBarIconController: ignoring old pipeline callbacks, because the new mobile icons are enabled
+09-13 20:14:20.389  2886  3459 I EPDG -- SIM0 [EpdgRunnable]: Start mWiFiMeasurement
+09-13 20:14:20.389  2886  3459 I EPDG -- SIM0 [EpdgSubScription]: getIsImsCallConnected: returning: false
+09-13 20:14:20.499  1585  1631 E Watchdog: !@Sync: 628 heap: 102 / 123 FD: 1210 [2025-09-13 20:14:20.498]
+09-13 20:14:21.373   631   631 D io_stats: !@   8,0 r 1306676 35291708 w 722042 9833736 d 232112 10777660 f 0 0 iot 721692 0 th 0 0 0 pt 0 inp 0 0 18867.861
+09-13 20:14:22.236  1146  1146 E audit   : type=1400 audit(1757774662.230:38173): avc:  denied  { kill } for  pid=0 comm="swapper/0" capability=5  scontext=u:r:kernel:s0 tcontext=u:r:kernel:s0 tclass=capability permissive=0 SEPF_SM-A235F_12_0001 audit_filtered
+09-13 20:14:22.588  1585  6432 D SemWifiUsabilityStatsMonitor: onWifiUsabilityStats - seqNum 1655, isSameBssidAndFreq true
+09-13 20:14:22.589  1585  2668 I SemWifiLinkQualityMonitor: Link stat: 1381 / 161 / 1.17 (28) / 72 / -51.0 || 100.0 : 72.00 / B (B) || 0.19 ms / 41.53 Mbps / N || 0 / N / 0 N / 0 Y
+09-13 20:14:22.625  2781  2781 D MobileSignalTransitionManager: updateSignalTransition
+09-13 20:14:22.626  2781  2781 D StatusBarIconController: ignoring old pipeline callbacks, because the new mobile icons are enabled
+09-13 20:14:22.627  2886  2886 I EPDG -- SIM0 [SMARTCELLULAR]: onSignalStrengthsChanged: SignalStrength:{mCdma=Invalid,mGsm=Invalid,mWcdma=Invalid,mTdscdma=Invalid,mLte=CellSignalStrengthLte: rssi=-89 rsrp=-118 rsrq=-9 rssnr=4 cqiTableIndex=2147483647 cqi=2147483647 ta=2147483647 level=2 parametersUseForLevel=0,mNr=Invalid,SignalBarInfo{ lteLevel=1 },rat=14,primary=CellSignalStrengthLte}
+09-13 20:14:22.627  2886  3914 I EPDG -- SIM0 [SMARTCELLULAR]: lastLteRSRP is -117 currentLteRSRP is -118 lastLteRSRQ is -9 currentLteRSRQ is -9 lastLteSNR is 4 currentLteSNR is 4
+09-13 20:14:22.628  2886  3459 I EPDG -- SIM0 [EpdgRunnable]: Start mWiFiMeasurement
+09-13 20:14:22.628  2886  3459 I EPDG -- SIM0 [EpdgSubScription]: getIsImsCallConnected: returning: false
+09-13 20:14:22.661  1450  1450 I SurfaceFlinger: SFWD update time=18869150299934
+09-13 20:14:22.667  1450  1450 D SurfaceFlinger: GPIS:: requestGPISForClientComposition
+09-13 20:14:22.676  1450  2489 D NativeSemDvfsManager: acquire:: timeout = 2000 mIsAcquired = 1  mTagName : SurfaceFlinger 
+09-13 20:14:22.677  1274  1372 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 3003475  [1450 / 1000]    HINT : SF_GPU_MINLOCK    list : [TIMEOUT / 2000] 
+09-13 20:14:22.677  1450  2489 E NativeCustomFrequencyManager: [NativeCFMS] BpCustomFrequencyManager::acquire()
+09-13 20:14:22.677  1450  1493 I VSyncReactor: Current= 60, Period= 60, hwcPeriod= 60
+09-13 20:14:22.696  1766  4312 D BufferPoolAccessor2.0: bufferpool2 0xb400007d4e050e28 : 1(235 size) total buffers - 1(235 size) used buffers - 100/213 (recycle/alloc) - 115/212 (fetch/transfer)
+09-13 20:14:22.815  3456  3462 I NearbyMediums: No BLE Fast/GATT advertisements found in the latest cycle.
+09-13 20:14:22.815  3456  3462 I NearbyMediums: Current Tracked Scanning Clients are : {NearbyConnections.EnvironmentMonitor, NearbyConnections.TxAdvertisement}
+09-13 20:14:23.373   631   631 D io_stats: !@   8,0 r 1306676 35291708 w 722204 9834532 d 232193 10778408 f 0 0 iot 721740 0 th 0 0 0 pt 0 inp 0 0 18869.862
+09-13 20:14:24.685  1274  5159 I HYPER-HAL: [RequestManager.cpp]releaseLocked(): Released ID : 3003475
+09-13 20:14:25.014  1248  1248 I android.hardware.health@2.1-service-samsung: updateLrpSysfs: write: 339
+09-13 20:14:25.300  1585  1806 D BatteryExternalStatsWorker: update stats : update-network-netlog (6)
+09-13 20:14:25.300  1585  1806 D BatteryExternalStatsWorker: Fetch WiFi data
+09-13 20:14:25.300  1585  1806 D BatteryExternalStatsWorker: Update Rail Energy data
+09-13 20:14:25.300  1585  1806 D BatteryExternalStatsWorker: Fetch modem data
+09-13 20:14:25.314  1585  3518 D TelephonyManager: requestModemActivityInfo: Sending result to app: ModemActivityInfo{ mTimestamp=35436108 mSleepTimeMs=21118361 mIdleTimeMs=4393409 mActivityStatsTechSpecificInfo=[{mRat=UNKNOWN,mFrequencyRange=UNKNOWN,mTxTimeMs[]=[310973, 123275, 177359, 340698, 443476],mRxTimeMs=8523988}]}
+09-13 20:14:25.315  1585  1806 D BatteryExternalStatsWorker: mStats lock released
+09-13 20:14:25.322  1585  1806 D BatteryExternalStatsWorker: Update wifi state
+09-13 20:14:25.325  1585  1806 D BatteryExternalStatsWorker: Update modem state
+09-13 20:14:25.325  1585  1806 D BatteryExternalStatsWorker: done updateExternalStatsLocked
+09-13 20:14:25.374   631   631 D io_stats: !@   8,0 r 1306676 35291708 w 722216 9836104 d 232193 10778408 f 0 0 iot 721760 0 th 0 0 0 pt 0 inp 0 0 18871.863
+09-13 20:14:25.603  1585  6432 D SemWifiUsabilityStatsMonitor: onWifiUsabilityStats - seqNum 1656, isSameBssidAndFreq true
+09-13 20:14:25.603  1585  2668 I SemWifiLinkQualityMonitor: Link stat: 2055 / 436 / 1.06 (83) / 72 / -51.0 || 100.0 : 72.00 / B (B) || 0.20 ms / 39.51 Mbps / N || 0 / N / 0 N / 0 Y
+09-13 20:14:26.538  4751  4751 I SDHMS:LOAD: type: LoadsFreqs, value: 0:0:0:1104384:1766400:1056000:1104384:1766400:1056000:600:600:600
+09-13 20:14:26.620  1585  2599 W DeviceStorageMonitorService: check(/data) oldLevel:2, newLevel:2 (usableBytes=3403538432)
+09-13 20:14:26.620  1585  2599 W DeviceStorageMonitorService: updateBroadcasts(/data) oldLevel:2, newLevel:2, seq:1
+09-13 20:14:26.621  1585  2599 D DeviceStorageMonitorService: Available File Node Number is [13318313]
+09-13 20:14:26.621  1585  2599 W DeviceStorageMonitorService: updateBroadcasts_filenode(/data) fn_oldLevel:0, fn_newLevel:0, seq:1
+09-13 20:14:27.500  1674  1674 I CNSS    : cnss_open_log_file: directory /data/vendor/log/wifi/ created
+09-13 20:14:28.628  1585  6432 D SemWifiUsabilityStatsMonitor: onWifiUsabilityStats - seqNum 1657, isSameBssidAndFreq true
+09-13 20:14:28.630  1585  2668 I SemWifiLinkQualityMonitor: Link stat: 1922 / 189 / 1.05 (60) / 72 / -52.0 || 100.0 : 72.00 / B (B) || 0.19 ms / 41.89 Mbps / N || 0 / N / 0 N / 0 Y
+09-13 20:14:28.940  1271  3939 I sensors-hal: handle_sns_client_event:229, auto_rotation_event_2: mode:255, type:1:0/0.608,-0.361,9.789, ar:0
+09-13 20:14:29.624 26446 26446 I wpa_supplicant: Heartbeat 191
+09-13 20:14:29.703  1766  2112 D BufferPoolAccessor2.0: bufferpool2 0xb400007d4e050e28 : 4(716 size) total buffers - 0(0 size) used buffers - 107/223 (recycle/alloc) - 119/223 (fetch/transfer)
+09-13 20:14:29.703  1766  2112 D BufferPoolAccessor2.0: evictor expired: 1, evicted: 1
+09-13 20:14:31.377   631   631 D io_stats: !@   8,0 r 1306676 35291708 w 722230 9838032 d 232193 10778408 f 0 0 iot 721788 0 th 0 0 0 pt 0 inp 0 0 18877.865
+09-13 20:14:31.641  1585  6432 D SemWifiUsabilityStatsMonitor: onWifiUsabilityStats - seqNum 1658, isSameBssidAndFreq true
+09-13 20:14:31.642  1585  2668 I SemWifiLinkQualityMonitor: Link stat: 1128 / 159 / 1.05 (65) / 72 / -51.0 || 100.0 : 72.00 / B (B) || 0.19 ms / 41.04 Mbps / N || 0 / N / 0 N / 0 Y
+09-13 20:14:34.666  1585  6432 D SemWifiUsabilityStatsMonitor: onWifiUsabilityStats - seqNum 1659, isSameBssidAndFreq true
+09-13 20:14:34.666  1585  2668 I SemWifiLinkQualityMonitor: Link stat: 230 / 25 / 1.14 (8) / 72 / -53.0 || 100.0 : 72.00 / B (B) || 0.19 ms / 41.69 Mbps / N || 0 / N / 0 N / 0 Y
+09-13 20:14:35.563  2861 26450 W AlarmManager: Unrecognized alarm listener com.android.networkstack.android.net.ip.IpClientLinkObserver$Dhcp6PdPreferredPrefixAlarmListener@ba7b533
+09-13 20:14:35.563  1165  1205 W Netd    : No subsystem found in netlink event
+09-13 20:14:35.565  2886  3459 I EPDG -- SIM0 [EpdgNetworkMgmtObserver]: EpdgAddressUpdated: address: Suppressed iface: SuppressedmFqdnRetryCount : 0
+09-13 20:14:35.565  2886  3459 I EPDG -- SIM0 [EpdgSubScription]: isValidAddress: returning result: true
+09-13 20:14:35.565  2886  3459 I EPDG -- SIM0 [EpdgSubScription]: getConfiguredWifiIntfIpType: returning ip type as: IP_TYPE_V4V6
+09-13 20:14:35.565  2886  3459 I EPDG -- SIM0 [EpdgNetworkMgmtObserver]: EpdgAddressUpdated: address: Suppressed iface: SuppressedmFqdnRetryCount : 0
+09-13 20:14:35.565  2886  3459 I EPDG -- SIM0 [EpdgSubScription]: isValidAddress: returning result: true
+09-13 20:14:35.565  2886  3459 I EPDG -- SIM0 [EpdgSubScription]: getConfiguredWifiIntfIpType: returning ip type as: IP_TYPE_V4V6
+09-13 20:14:35.565  2861 26450 D ApfFilter: (wlan0): Adding RA fe80::c6e9:aff:fe34:7f7d -> ff02::1 0s fd01::/64 300s/300s DNS 4294967295s fe80::c6e9:aff:fe34:7f7d RIO 4294967295s ::/0 
+09-13 20:14:35.565  2886  2886 I EPDG -- SIM0 [EpdgIntfCont]: Not Mobile Interface. Ignoring Event
+09-13 20:14:35.566  2886  2886 I EPDG -- SIM0 [EpdgIntfCont]: Not Mobile Interface. Ignoring Event
+09-13 20:14:35.566  2886  2886 I EPDG -- SIM1 [EpdgIntfCont]: Not Mobile Interface. Ignoring Event
+09-13 20:14:35.566  2886  2886 I EPDG -- SIM1 [EpdgIntfCont]: Not Mobile Interface. Ignoring Event
+09-13 20:14:35.787  1585  2722 D NetdEventListenerService: DNS Requested by 124, 10336, 4, true, 0
+09-13 20:14:36.662  4751  4751 I SDHMS:LOAD: type: LoadsFreqs, value: 0:0:0:1098624:1766400:1056000:1098624:1766400:1056000:600:600:600

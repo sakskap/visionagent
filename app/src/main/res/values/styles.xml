@@ -1,0 +1,19 @@
+<resources>
+    <style name="Shape.Rounded">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">18dp</item>
+    </style>
+
+    <!-- Extra-rounded “pill” variant -->
+    <style name="Shape">
+        <item name="cornerFamily">rounded</item>
+        <!-- huge radius -> pill -->
+        <item name="cornerSize">999dp</item>
+    </style>
+
+    <style name="Shape.Rounded.Pill">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">999dp</item>
+    </style>
+
+</resources>
